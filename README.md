@@ -59,7 +59,7 @@ pip install future
 BUILD_TEST=0 USE_DISTRIBUTED=0 USE_NCCL=0 USE_NUMA=0 USE_MPI=0 python setup.py install
 ``` 
 
-### ✅ install requirements 
+### ✅ Install Requirements 
 ``` bash
 # install requirements
 pip install -r requirements.txt
@@ -112,10 +112,12 @@ $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark
     <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_perf_eval.png" alt="dlnlp_perf_eval" height="200"/>
 </div>
 
-## 🌟 Project members (Team09)
+## 🌟 Project Members (Team09)
 
 | <img width="200" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="200" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
 | --- | --- |
 | **Ji Yeong Yi** | **Jane Rhee** |
+| --- | --- |
 | AIX 4th | AIX 5th |
+| --- | --- |
 | jybyte@gmail.com | jrhee1122@ewhain.net |
