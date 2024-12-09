@@ -32,6 +32,8 @@ This repo provides the code implementation for the final project of </br> the <b
 </table>
 </div>
 
+</br>
+
 ## 📋 Project Overview
 Large NLP models face significant memory constraints, making it challenging to execute them effectively due to their increasing memory demands. To tackle this, we integrate **Unified Memory** with **Layer Fusion**—a method that allows programs to utilize more memory than typically available. This approach seeks to balance memory efficiency and performance, enabling large Transformer models to run seamlessly on a single processor with minimal performance degradation. The project evaluates the effectiveness of this strategy in supporting large-scale NLP models.
 
@@ -40,6 +42,7 @@ Large NLP models face significant memory constraints, making it challenging to e
     <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/DLNLP_Overview.png" alt="Project_overview" height="400em"/>
 </div>
 
+</br>
 
 ## 🛠 Environment Setup
 To conduct the experiments, it is necessary to install **PyTorch-UVM** configured to operate in a Unified Memory environment.<br/>
@@ -96,6 +99,7 @@ BUILD_TEST=0 USE_DISTRIBUTED=0 USE_NCCL=0 USE_NUMA=0 USE_MPI=0 python setup.py i
 pip install -r requirements.txt
 ```
 
+</br>
 
 ## ⚙️ How to Run Experiments
 - We implemented five versions of GPT model layers in a Unified Memory system with Layer Fusion.
@@ -131,8 +135,7 @@ $ python run_gpt2.py --model gpt3_6.7b --enable-prefetch --enable-cudnn-benchmar
 $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
 ```
 
-
-
+</br>
 
 ## 📊 Experiment Results
 
