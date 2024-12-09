@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 
 ## ⚙️ How to Run Experiments
-- We implemented five versions of GPT model layers:
+- We implemented five versions of GPT model layers in a Unified Memory system with Layer Fusion.
 - To select the desired version of GPT model layers, modify the import statement for PrefetchGPT2LM at the top of the run_gpt2.py file.
 ``` bash
 # 1. Baseline: Layers with only Unified Memory applied (Default)
@@ -104,7 +104,7 @@ from attnprojctn_gpt2_prefetch.py import PrefetchGPT2LM
 
 ## 🌟 Project members (Team09)
 
-| <img width="200" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="200" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> |
+| <img width="200" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="200" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
 | --- | --- |
 | **Ji Yeong Yi** | **Jane Rhee** |
 | AIX 4th | AIX 5th |
