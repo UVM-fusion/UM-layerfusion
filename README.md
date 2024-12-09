@@ -3,6 +3,13 @@
 This repo provides the code implementation for the final project of the <b>[2024] Deep Learning & NLP course</b>.
 </div>
 
+## 🌟 Project Members (Team09)
+<div align="center">
+| <img width="150" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="150" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
+| --- | --- |
+| **Ji Yeong Yi** </br> AIX 4th </br> jybyte@gmail.com| **Jane Rhee** </br> AIX 5th </br> jrhee1122@ewhain.net|
+</div>
+
 ## 📋Overview
 Large NLP models face significant memory constraints, making it challenging to execute them effectively due to their increasing memory demands. To tackle this, we integrate **Unified Memory** with **Layer Fusion**—a method that allows programs to utilize more memory than typically available. This approach seeks to balance memory efficiency and performance, enabling large Transformer models to run seamlessly on a single processor with minimal performance degradation. The project evaluates the effectiveness of this strategy in supporting large-scale NLP models.
 
@@ -114,8 +121,4 @@ $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark
     <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_perf_eval.png" alt="dlnlp_perf_eval" height="200"/>
 </div>
 
-## 🌟 Project Members (Team09)
 
-| <img width="150" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="150" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
-| --- | --- |
-| **Ji Yeong Yi** </br> AIX 4th </br> jybyte@gmail.com| **Jane Rhee** </br> AIX 5th </br> jrhee1122@ewhain.net|
