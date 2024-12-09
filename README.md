@@ -2,7 +2,7 @@
 This repo provides the code implementation for the final project of the [2024] Deep Learning & NLP course.
 
 ## 📋Overview
-Large NLP models face significant memory constraints, making it challenging to execute them effectively due to their increasing memory demands. To tackle this, we integrate **layer fusion** with **unified memory**—a method that allows programs to utilize more memory than typically available. This approach seeks to balance memory efficiency and performance, enabling large Transformer models to run seamlessly on a single processor with minimal performance degradation. The project evaluates the effectiveness of this strategy in supporting large-scale NLP models.
+Large NLP models face significant memory constraints, making it challenging to execute them effectively due to their increasing memory demands. To tackle this, we integrate **unified memory** with **layer fusion**—a method that allows programs to utilize more memory than typically available. This approach seeks to balance memory efficiency and performance, enabling large Transformer models to run seamlessly on a single processor with minimal performance degradation. The project evaluates the effectiveness of this strategy in supporting large-scale NLP models.
 
 
 ## 🛠 Environment Setup
