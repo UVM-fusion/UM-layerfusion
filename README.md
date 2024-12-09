@@ -10,7 +10,7 @@ This repo provides the code implementation for the final project of </br> the <b
 | **Ji Yeong Yi** </br> AIX 4th </br> jybyte@gmail.com| **Jane Rhee** </br> AIX 5th </br> jrhee1122@ewhain.net|
 </center>
 
-<center>
+<div align="center">
 <h2>🌟 Project Members (Team09)</h2>
 
 <table>
@@ -35,7 +35,7 @@ This repo provides the code implementation for the final project of </br> the <b
     </td>
   </tr>
 </table>
-</center>
+</div>
 
 ## 📋Overview
 Large NLP models face significant memory constraints, making it challenging to execute them effectively due to their increasing memory demands. To tackle this, we integrate **Unified Memory** with **Layer Fusion**—a method that allows programs to utilize more memory than typically available. This approach seeks to balance memory efficiency and performance, enabling large Transformer models to run seamlessly on a single processor with minimal performance degradation. The project evaluates the effectiveness of this strategy in supporting large-scale NLP models.
