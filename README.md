@@ -89,16 +89,14 @@ from attnprojctn_gpt2_prefetch.py import PrefetchGPT2LM
 ```
 
 - Each version of the layer can be executed on three sizes of GPT models:
-  1. gpt2_1.5b (1.5B parameters)
 ``` bash
+# 1. gpt2_1.5b (1.5B parameters)
 $ python run_gpt2.py --model gpt2_1.5b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
-```
-  2. gpt3_6.7b (6.7B parameters)
-``` bash
+
+# 2. gpt3_6.7b (6.7B parameters)
 $ python run_gpt2.py --model gpt3_6.7b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
-```
-  3. gpt3_13b (13B parameters)
-``` bash
+
+# 3. gpt3_13b (13B parameters)
 $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
 ```
 
