@@ -45,17 +45,17 @@ Large NLP models face significant memory constraints, making it challenging to e
 </br>
 
 ## 🛠 Environment Setup
-To conduct the experiments, it is necessary to install **PyTorch-UVM** configured to operate in a Unified Memory environment.<br/>
+To conduct the experiments, it is necessary to install **UM-PyTorch** configured to operate in a Unified Memory environment.<br/>
 (This section is inspired by the setup guide from **https://github.com/kooyunmo/cuda-uvm-gpt2**)
 
-### ✅ PyTorch-UVM Prerequisites
+### ✅ UM-PyTorch Prerequisites
 - Ubuntu 18.04
 - anaconda3
 - cuda-11.0
 - cudnn 8.0.4 for cuda-11.0
 - correct environment variables
 
-### ✅ PyTorch-UVM Installation
+### ✅ UM-PyTorch Installation
 ``` bash
 git clone --recursive https://github.com/kooyunmo/cuda-uvm-gpt2
 cd cuda-uvm-gpt2/pytorch-uvm
