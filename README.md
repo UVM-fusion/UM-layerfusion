@@ -116,6 +116,6 @@ $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark
 
 ## 🌟 Project Members (Team09)
 
-| <img width="200" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="200" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
+| <img width="150" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="150" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
 | --- | --- |
 | **Ji Yeong Yi** </br> AIX 4th </br> jybyte@gmail.com| **Jane Rhee** </br> AIX 5th </br> jrhee1122@ewhain.net|
