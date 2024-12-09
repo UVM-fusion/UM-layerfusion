@@ -3,13 +3,6 @@
 This repo provides the code implementation for the final project of </br> the <b>[2024] Deep Learning & NLP course</b>.
 </div>
 
-<center>
-## 🌟 Project Members (Team09)
-| <img width="150" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="150" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
-| --- | --- |
-| **Ji Yeong Yi** </br> AIX 4th </br> jybyte@gmail.com| **Jane Rhee** </br> AIX 5th </br> jrhee1122@ewhain.net|
-</center>
-
 <div align="center">
 <h2>🌟 Project Members (Team09)</h2>
 
