@@ -4,7 +4,7 @@ This repo provides the code implementation for the final project of </br> the <b
 </div>
 
 <div align="center">
-<h2>🌟 Project Members (Team09)</h2>
+<h2 style="border-bottom: none;">🌟 Project Members (Team09)</h2>
 
 <table>
   <tr>
