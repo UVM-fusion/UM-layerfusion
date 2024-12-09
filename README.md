@@ -6,7 +6,7 @@ This repo provides the code implementation for the final project of </br> the <b
 <div align="center">
 </br>
 </br>
-<p><b>🌟 Project Members (Team09)</b></p>
+<p><b>🌟 Project Members (Team09) 🌟</b></p>
 
 <table>
   <tr>
@@ -90,7 +90,7 @@ pip install future
 BUILD_TEST=0 USE_DISTRIBUTED=0 USE_NCCL=0 USE_NUMA=0 USE_MPI=0 python setup.py install
 ``` 
 
-### ✅ Install Requirements 
+### ✅ Requirements Installation
 ``` bash
 # install requirements
 pip install -r requirements.txt
@@ -140,7 +140,7 @@ $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark
 
 
 <div align="center">
-    <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_perf_eval.png" alt="dlnlp_perf_eval" height="200"/>
+    <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_eval.png" alt="dlnlp_perf_eval" width="400"/>
 </div>
 
 
