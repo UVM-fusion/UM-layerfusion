@@ -1,5 +1,5 @@
 <div align="center">
-# Towards Maximizing the Sweet Spot for NLP Models
+<h2>Towards Maximizing the Sweet Spot for NLP Models</h2>
 This repo provides the code implementation for the final project of the **[2024] Deep Learning & NLP course**.
 </div>
 
