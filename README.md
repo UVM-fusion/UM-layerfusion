@@ -4,7 +4,9 @@ This repo provides the code implementation for the final project of </br> the <b
 </div>
 
 <div align="center">
-<p style="font-size: 1.5em; font-weight: bold;">🌟 Project Members (Team09)</p>
+</br>
+</br>
+<p><b>🌟 Project Members (Team09)</b></p>
 
 <table>
   <tr>
