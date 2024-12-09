@@ -140,7 +140,7 @@ $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark
 
 
 <div align="center">
-    <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_eval.png" alt="dlnlp_perf_eval" height="150"/>
+    <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_eval.png" alt="dlnlp_perf_eval" height="200"/>
 </div>
 
 
