@@ -111,22 +111,22 @@ pip install -r requirements.txt
 from models.gpt2_prefetch.py import PrefetchGPT2LM
 
 # 2. Fused (Dropout + LayerNorm) Layer
-from dropoutlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
+from models.dropoutlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
 
 # 3. Fused (Attention + LayerNorm) Layer
-from attnlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
+from models.attnlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
 
 # 4. Fused (Feed Forward + LayerNorm) Layer
-from ffnlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
+from models.ffnlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
 
 # 5. Fused (Attention + Projection) Layer
-from attnprojctn_gpt2_prefetch.py import PrefetchGPT2LM
+from models.attnprojctn_gpt2_prefetch.py import PrefetchGPT2LM
 ```
 
 - Each version of the layer can be executed on three sizes of GPT models:
 ``` bash
 # 1. gpt2_1.5b (1.5B parameters)
-$ python run_gpt2.py --model gpt2_1.5b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
+$ python run_gpt2.py --model gpt2_xl --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
 
 # 2. gpt3_6.7b (6.7B parameters)
 $ python run_gpt2.py --model gpt3_6.7b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
