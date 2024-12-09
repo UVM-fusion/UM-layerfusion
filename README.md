@@ -70,6 +70,8 @@ pip install -r requirements.txt
 - We implemented five versions of GPT model layers in a Unified Memory system with Layer Fusion.
 - To select the desired version of GPT model layers, modify the import statement for PrefetchGPT2LM at the top of the run_gpt2.py file.
 ``` bash
+# run_gpt2.py
+
 # 1. Baseline: Layers with only Unified Memory applied (Default)
 from models.gpt2_prefetch.py import PrefetchGPT2LM
 
@@ -88,8 +90,18 @@ from attnprojctn_gpt2_prefetch.py import PrefetchGPT2LM
 
 - Each version of the layer can be executed on three sizes of GPT models:
   1. gpt2_1.5b (1.5B parameters)
+``` bash
+$ python run_gpt2.py --model gpt2_1.5b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
+```
   2. gpt3_6.7b (6.7B parameters)
+``` bash
+$ python run_gpt2.py --model gpt3_6.7b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
+```
   3. gpt3_13b (13B parameters)
+``` bash
+$ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark --num-streams 5 --warmups 5
+```
+
 
 
 
