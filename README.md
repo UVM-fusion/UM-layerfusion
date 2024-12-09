@@ -11,10 +11,10 @@ This repo provides the code implementation for the final project of </br> the <b
 <table>
   <tr>
     <td>
-      <img width="150" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png" alt="Ji Yeong Yi"/>
+      <img width="200" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png" alt="Ji Yeong Yi"/>
     </td>
     <td>
-      <img width="150" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png" alt="Jane Rhee"/>
+      <img width="200" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png" alt="Jane Rhee"/>
     </td>
   </tr>
   <tr>
