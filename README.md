@@ -1,6 +1,6 @@
 <div align="center">
 <h2>Towards Maximizing the Sweet Spot for NLP Models</h2>
-This repo provides the code implementation for the final project of the <b>[2024] Deep Learning & NLP course</b>.
+This repo provides the code implementation for the final project of </br> the <b>[2024] Deep Learning & NLP course</b>.
 </div>
 
 <center>
@@ -8,6 +8,33 @@ This repo provides the code implementation for the final project of the <b>[2024
 | <img width="150" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png"/> | <img width="150" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png"/> |
 | --- | --- |
 | **Ji Yeong Yi** </br> AIX 4th </br> jybyte@gmail.com| **Jane Rhee** </br> AIX 5th </br> jrhee1122@ewhain.net|
+</center>
+
+<center>
+<h2>🌟 Project Members (Team09)</h2>
+
+<table>
+  <tr>
+    <td>
+      <img width="150" src="https://user-images.githubusercontent.com/68412683/206727359-a653906e-0847-4702-a7e4-4c1ac532bd46.png" alt="Ji Yeong Yi"/>
+    </td>
+    <td>
+      <img width="150" src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/user_image.png" alt="Jane Rhee"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Ji Yeong Yi</strong><br/>
+      AIX 4th<br/>
+      <a href="mailto:jybyte@gmail.com">jybyte@gmail.com</a>
+    </td>
+    <td>
+      <strong>Jane Rhee</strong><br/>
+      AIX 5th<br/>
+      <a href="mailto:jrhee1122@ewhain.net">jrhee1122@ewhain.net</a>
+    </td>
+  </tr>
+</table>
 </center>
 
 ## 📋Overview
