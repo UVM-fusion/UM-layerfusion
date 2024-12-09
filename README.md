@@ -6,7 +6,7 @@ Large NLP models face significant memory constraints, making it challenging to e
 
 
 <div align="center">
-    <!-- <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/DLNLP_Overview.png" alt="Project_overview" height="200em"/> -->
+    <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/DLNLP_Overview.png" alt="Project_overview" height="200em"/>
 </div>
 
 ## 🛠 Environment Setup
