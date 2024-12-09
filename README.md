@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 
 <div align="center">
-    <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_perf_eval.png" alt="dlnlp_perf_eval" height="400em"/>
+    <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_perf_eval.png" alt="dlnlp_perf_eval" height="200"/>
 </div>
 
 ## 🌟 Project members (Team09)
