@@ -68,11 +68,32 @@ pip install -r requirements.txt
 
 ## ⚙️ How to Run Experiments
 - We implemented five versions of GPT model layers:
+- To select the desired version of GPT model layers, modify the import statement for PrefetchGPT2LM at the top of the run_gpt2.py file.
   1. Baseline: Layers with only Unified Memory applied
+``` bash
+# Default
+from models.gpt2_prefetch.py import PrefetchGPT2LM
+```
   2. Fused (Dropout + LayerNorm) Layer
+``` bash
+# Default layers of GPT model
+from dropoutlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
+```
   3. Fused (Attention + LayerNorm) Layer
+``` bash
+# Default layers of GPT model
+from attnlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
+```
   4. Fused (Feed Forward + LayerNorm) Layer
+``` bash
+# Default layers of GPT model
+from ffnlayernorm_gpt2_prefetch.py import PrefetchGPT2LM
+```
   5. Fused (Attention + Projection) Layer
+``` bash
+# Default layers of GPT model
+from attnprojctn_gpt2_prefetch.py import PrefetchGPT2LM
+```
 
 - Each version of the layer can be executed on three sizes of GPT models:
   1. gpt2_1.5b (1.5B parameters)
