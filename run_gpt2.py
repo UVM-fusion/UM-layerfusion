@@ -11,7 +11,7 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
 from models.gpt2 import GPT2LM
-from models.attnprojctn_gpt2_prefetch import PrefetchGPT2LM
+from models.gpt2_prefetch.py import PrefetchGPT2LM
 from utils import event_measure
 
 import time
