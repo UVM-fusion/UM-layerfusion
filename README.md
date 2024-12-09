@@ -139,8 +139,8 @@ $ python run_gpt2.py --model gpt3_13b --enable-prefetch --enable-cudnn-benchmark
 
 ## 📊 Experiment Results
 
-실행환경
-
+- All experiments in this work are performed on NVIDIA RTX 3090 and A6000 GPUs with an open-source NVIDIA unified memory driver (Versions 545.29.06 and 535.183.01)
+- Our experiments on real hardware show that layer fusion with unified memory achieves a maximum performance improvement of 1.45x compared to the baseline case where only unified memory is used.
 
 <div align="center">
     <img src="https://github.com/UVM-fusion/UVM-layerfusion/blob/main/assets/dlnlp_eval.png" alt="dlnlp_perf_eval" height="200"/>
