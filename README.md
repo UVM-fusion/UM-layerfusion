@@ -10,6 +10,13 @@ Large NLP models face significant memory constraints, making it challenging to e
 </div>
 
 ## 🛠 Environment Setup
+To conduct the experiments, it is necessary to install PyTorch-UVM configured to operate in a Unified Memory environment.
+(This section is inspired by the setup guide from **https://github.com/kooyunmo/cuda-uvm-gpt2**)
+
+
+
+
+
 
 
 
